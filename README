@@ -1,0 +1,9 @@
+To run the script from console use:
+python3 -m src.telegram_api
+
+
+To run it from AWS lambda use handler name:
+src.aws_lambda.telegram_lambda
+
+Cron Schedule expression:
+cron(0 12 1/1 * ? *)
